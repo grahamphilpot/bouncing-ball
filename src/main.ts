@@ -21,6 +21,7 @@ const state: State = {
 // -- Configure the SDK
 //const client = new KameleoonClient({ siteCode });
 const configuration = {
+  "development"
    updateInterval: 1,
 };
 const client = new KameleoonClient({ siteCode, configuration });
